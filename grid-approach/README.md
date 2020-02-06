@@ -22,15 +22,15 @@ Usage:
 
 3. Logs' location
 
-    For figure 1 in paper
-        a) full-linear : log/linear
-        b) full-log: log/log
+    * For figure 1 in paper
+        * a) full-linear : log/linear
+        * b) full-log: log/log
 
-    For table 1 & 2 in paper
-        a) Full grid (Baseline) : log/full-nowarm
-        b) (C, eps) new : log/CPnew
-        c) (eps, C) new : log/PCnew
-        d) (eps, C) old : log/PCold
+    * For table 1 & 2 in paper
+        * a) Full grid (Baseline) : log/full-nowarm
+        * b) (C, eps) new : log/CPnew
+        * c) (eps, C) new : log/PCnew
+        * d) (eps, C) old : log/PCold
 
 >++++++++++++++++++++
 >Warning:

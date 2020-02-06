@@ -8,17 +8,17 @@ Usage:
 
 3. Run experiments
 
-...Run all the following setting : ./runall
+..Run all the following setting : ./runall
 
-...For figure 1 in paper
-...a. full-linear : ./run.sh 3
-...b. full-log: ./run.sh 4
+..For figure 1 in paper
+..a. full-linear : ./run.sh 3
+..b. full-log: ./run.sh 4
 
-...For table 1 & 2 in paper
-...a. Full grid (Baseline) : ./run.sh 6
-...b. (C, eps) new : ./run.sh 5
-...c. (eps, C) new : ./run.sh 0
-...d. (eps, C) old : ./run.sh 1
+..For table 1 & 2 in paper
+..a. Full grid (Baseline) : ./run.sh 6
+..b. (C, eps) new : ./run.sh 5
+..c. (eps, C) new : ./run.sh 0
+..d. (eps, C) old : ./run.sh 1
 
 
 4. Logs' location

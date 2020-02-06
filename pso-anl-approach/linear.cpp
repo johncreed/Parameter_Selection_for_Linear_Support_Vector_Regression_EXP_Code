@@ -3018,6 +3018,8 @@ void pso::update_i(const int i){
 
 void pso::solve(){
     int t = 0;
+    
+    printf("%-10s%-10s%-10s%-15s%-15s\n", "iter", "p", "log2_C", "MSE", "acc time(#cg iter)");
     while(t < max_iter){
         for(int i = 0; i < N; i++){
             update_i(i);
@@ -3029,7 +3031,7 @@ void pso::solve(){
         }
         double p = g_pos[0] * max_p + min_p;
         double C = g_pos[1] * max_C + min_C;
-        printf("iter %d p: %lf C: %lf mse_i: %lf cg_total %d\n", t, p, C, g_best, all_cg);
+        printf("%-10d%-10.3lf%-10.3lf%-15lf%-15d\n", t, p, log2(C), g_best, all_cg);
         t++;
     }
     //double p = g_pos[0] * max_p + min_p;
@@ -3262,6 +3264,7 @@ void anl::rand_pos(double *pos){
 
 void anl::solve(){
     int t = 0;
+    printf("%-10s%-10s%-10s%-15s%-15s\n", "iter", "p", "log2_C", "MSE", "acc time(#cg iter)");
     while(t < max_iter){
         rand_next_pos(c_pos, n_pos);
         n_mse = get_MSE(n_pos);
@@ -3294,7 +3297,7 @@ void anl::solve(){
         if(t % 30 == 0){
             double p = max_p * g_pos[0] + min_p;
             double C = max_C * g_pos[1] + min_C;
-            printf("iter %d p: %lf C: %lf mse: %lf cg_total: %d T: %lf\n", t, p, C, g_mse, all_cg, T);
+            printf("%-10d%-10.3lf%-10.3lf%-15lf%-15d\n", t, p, log2(C), g_mse, all_cg);
         }
         //printf("iter: %d p: %lf C: %lf mse: %lf T %lf\n", t, g_pos[0], g_pos[1], g_mse, T);
 

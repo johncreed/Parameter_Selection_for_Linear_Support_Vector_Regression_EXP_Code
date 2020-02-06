@@ -36,6 +36,7 @@ Usage:
 >Warning:
 >1. All logs folder must have same data logs, otherwise draw.py can't handle it.
 >2. Please follow the draw.py instruction finish the pic and table.
+>
 >++++++++++++++++++++
 
 4. Draw pic and table

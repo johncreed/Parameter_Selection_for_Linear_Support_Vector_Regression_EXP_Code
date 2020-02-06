@@ -1,0 +1,9 @@
+*.swp
+logs
+reg
+tags
+*.o
+train
+predict
+
+data

@@ -6,8 +6,7 @@ num_core=3
 mkdir -p $log_path
 grid()
 {
-for f in `./list_data.sh reg`
-#for f in reg/*
+for f in data/*
 do
   echo "./train -s 11 -P ${f} > $log_path/${f#*/}.pso"
 done

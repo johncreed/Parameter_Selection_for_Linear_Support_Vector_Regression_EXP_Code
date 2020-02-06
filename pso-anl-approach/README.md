@@ -17,9 +17,10 @@
 ./anl.sh
 ```
 
-> Logs are stored in logs/pso or logs/anl
 
 ## Sample log
+
+> Logs are stored in logs/pso or logs/anl
 
 iter     | p         |log2_C    |MSE            |acc time(#cg iter)
 ---------|-----------|----------|---------------|------------------

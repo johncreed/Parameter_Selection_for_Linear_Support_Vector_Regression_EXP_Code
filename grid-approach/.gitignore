@@ -1,0 +1,19 @@
+# Make output
+*.o
+train
+predict
+blas/blas.a
+# Edit backup file
+*.swp
+# Train output
+*.model
+# Ctags file
+*/tags
+tags
+# Data path
+cls
+reg_small
+reg
+reg.t
+#trash
+trash

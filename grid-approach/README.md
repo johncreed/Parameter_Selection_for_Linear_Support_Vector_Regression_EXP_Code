@@ -1,15 +1,10 @@
 Usage:
 
 1. Set up basics
- 
+
+```shell
 ./init.sh
-
-2. All data are in
-
-https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/regression.html
-
-Please choose and download to data folder
-
+```
 
 3. Run experiments
 

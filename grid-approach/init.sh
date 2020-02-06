@@ -1,6 +1,6 @@
 #! /bin/bash
 
-mkdir -p data
+ln -s ../data ./
 mkdir -p log
 mkdir -p pic
 make

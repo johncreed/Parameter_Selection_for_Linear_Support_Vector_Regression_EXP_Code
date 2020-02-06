@@ -1,7 +1,21 @@
-# Particle swarm optimization and simulated annealing approaches
+# Particle swarm optimization(PSO) and simulated annealing approaches (ANL)
 
-# Initialization
+## Initialization
 
 ```shell
 ./init.sh
 ```
+## Run exp
+
+* PSO
+```shell
+./pso.sh
+```
+
+* ANL
+```shell
+./anl.sh
+```
+
+> Logs are stored in logs/pso or logs/anl
+

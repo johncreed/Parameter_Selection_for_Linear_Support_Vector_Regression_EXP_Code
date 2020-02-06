@@ -35,4 +35,4 @@ iter      |p         |log2_C    |MSE            |acc time(#cg iter)
 8         |0.110     |48.129    |0.531441       |49495          
 9         |0.110     |48.129    |0.531441       |54051          
 
-The best parameters are shown in the last row. That is, p = 0.11 and C=2^48.129 are the best parameters.
+The **best parameters** are shown in the last row. That is, p = 0.11 and C=2^48.129 are the best parameters.

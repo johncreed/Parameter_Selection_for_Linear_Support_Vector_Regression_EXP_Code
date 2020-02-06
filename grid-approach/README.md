@@ -41,10 +41,12 @@ Usage:
 >++++++++++++++++++++
 
 4. Draw pic and table
-./draw.py
+    ```shell
+    ./draw.py
+    ```
 
-a) Picture : select [Graph-linear-vs-log]
-b) MSE table : select [Table-MSE-Comparison]
-c) iter table : select [Table-iter-Comparison]
+    * a) Picture : select [Graph-linear-vs-log]
+    * b) MSE table : select [Table-MSE-Comparison]
+    * c) iter table : select [Table-iter-Comparison]
 
 6. All picture and table are stored to pic folder.
